@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+h1{
+    text-align: center;
+}
+
+.cuadro {
+    border: 2px solid black; /* Borde de 2 píxeles de grosor */
+    background-color: rgb(140, 255, 0); /* Fondo azul */
+    padding: 10px; /* Espacio interno alrededor del texto */
+    display: inline-block; /* Para que el cuadro se ajuste al contenido del texto */
+    
+}
+
+/* Estilos del texto */
+.texto {
+    color: white; /* Color del texto blanco */
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.texto a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.texto a:hover {
+    color: #000000; /* Cambia el color al pasar el ratón sobre los enlaces */
+}
+
+.koko{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 50px;
+        margin: 0;
+    
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #8a2be2; /* Cambia el color al pasar el ratón sobre los enlaces */
+}
+
+.fotos{
+    text-align: center;
+}
+
+.foot{
+    text-align: center;
+    
+}
+
+h2{
+    text-align: center;
+}
+
+/* uso de flexbox */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color: rgb(227, 14, 14);
+}
+
+/* selector avanzado: padre > hijo */
+.navbar > li{
+    padding: 10px;
+    border: 1px solid black;
+    margin: 1px;
+}
+
+/* barra de navegacion */
+.navbar > li:hover{
+    background-color:crimson;
+}
+
+/* eliminamos los valores por defecto de la etiqueta <a> */
+a{
+    text-decoration: none;
+    color: black;
+}
